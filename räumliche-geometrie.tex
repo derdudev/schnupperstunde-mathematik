@@ -1,0 +1,105 @@
+\chapter{Räumliche Geometrie}
+
+\section{Grundbegriffe}
+
+
+\section{Darstellungen von Geraden und Ebenen}
+Generell werden in der Schule drei verschiedene Darstellungen für Ebenen verwendet. Alle haben ihre Vor- und Nachteile. 
+
+\begin{problem}[Parameterform  \(\rightsquigarrow\) Normalenform] \label{prob:parameterf-normalenf}
+    
+\end{problem}
+
+\begin{problem}[Normalenform \(\rightsquigarrow\) Koordinatenform] \label{prob:normalenf-koordf}
+    Gegeben ist eine Ebene \(E\) in Parameterform, d.h. \(E: \vec x = \vec p + t \cdot \vec v + s\cdot \vec w\). 
+\end{problem}
+
+Indem wir das Vorgehen aus Problem \ref{prob:parameterf-normalenf} und \ref{prob:normalenf-koordf} kombinieren, können wir eine Ebene in Parameterform in eine Ebene in Koordinatenform umwandeln: 
+
+\begin{problem}[Parameterform \(\rightsquigarrow\) Koordinatenform]
+    
+\end{problem}
+
+Wir fassen zusammen: 
+\begin{problem}[Normalenvektor einer Ebene bestimmen]
+    Gegeben ist eine Ebene \(E\). Den Normalenvektor bestimmen wir abhängig von der gegebenen Darstellung: 
+    \begin{itemize}
+        \item \normal{Parameterform}: Sei \(E: \vec x = \vec p + t\vec v + s\vec w\). Dann ist ein Normalenvektor \(\vec n\) gegeben durch das Kreuzprodukt der Spannvektoren \(v\) und \(w\): \begin{equation*}
+            \vec n = \vec v \times \vec w
+        \end{equation*}
+
+        \item \normal{Normalenform}: Sei \(E: (\vec x - \vec p)\cdot \vec n = 0\). Ein Normalenvektor ist bereits in der Darstellung als \(\vec n\) enthalten. 
+
+        \item \normal{Koordinatenform}: Sei \(E: ax_1 + bx_2 + cx_3 = d\). Dann ist ein Normalenvektor gegeben durch \begin{equation*}
+            \vec n = \begin{pmatrix}
+                a \\ b \\ c
+            \end{pmatrix}
+        \end{equation*}
+    \end{itemize}
+\end{problem}
+
+\begin{definition}[Hauptebenen]
+    Die Ebenen, die von dem Ursprung und zwei Richtungsvektoren, die jeweils in die Richtung verschiedener Koordinatenachsen zeigen, aufgespannt werden, heißen \textbf{Hauptebenen}. Konkret nennen wir 
+    \begin{equation*}
+        E_1 : \vec 0 + t\cdot \colvec[1]{0}{0} + s \cdot \colvec[0]{1}{0}
+    \end{equation*}
+    \(x_1x_2\)-Ebene, 
+    \begin{equation*}
+        E_2 : \vec 0 + t \cdot \colvec[0]{1}{0} + s \cdot \colvec[0]{0}{1}
+    \end{equation*}
+    \(x_2x_3\)-Ebene und 
+    \begin{equation*}
+        E_3 : \vec 0 + t\cdot \colvec[1]{0}{0} + s \cdot \colvec[0]{0}{1}
+    \end{equation*}
+    \(x_1x_3\)-Ebene. 
+\end{definition}
+
+Wir definieren hier Hauptebenen über ihre Parameterform. Genauso valide wäre es, sie über ihre Normalen- oder Koordinatenform zu definieren. Diese können wir ausgehend von der jeweiligen Parameterform mithilfe der zuvor besprochenen Verfahren ableiten: 
+
+\begin{proposition}[Darstellung von Hauptebenen]
+    
+\end{proposition}
+
+\section{Abstände}
+
+\begin{problem}[Abstand eines Punktes von einer Ebene] Gegeben ist ein Punkt \((a,b,c)\in \mathbb R^3\) und eine Ebene \(E\) in beliebiger Darstellung, d.h. Parameterform, Normalenform oder Koordinatenform. Sei \(\vec p\) der zum Punkt \((a,b,c)\) gehörende Ortsvektor. 
+\begin{enumerate}
+    \item Normalenvektor \(\vec n\) der Ebene bestimmen. Für die Ebene in Normalen- oder Koordinatenform lässt sich dieser direkt ablesen. 
+    \item Lotfußgerade \(g\) durch den Punkt \((a,b,c)\) bestimmen. Diese erhalten wir durch 
+    \begin{equation*}
+        g: \vec x = \vec p + t\cdot \vec n
+    \end{equation*}
+    \item Lotfußpunkt \(L\) der Lotfußgerade \(g\) mit der Ebene \(E\) bestimmen. 
+    \item Der Abstand von \((a,b,c)\) zu \(E\) ist dann gegeben durch \(|L|\). 
+\end{enumerate}
+    
+\end{problem}
+
+Wir wollen uns überlegen, wie groß der Abstand eines allgemeinen Punktes \((a,b,c)\) von einer der drei Hauptebenen \(x_1x_2, x_1x_3,x_2x_3\) ist.
+\begin{proposition}[Abstand von Hauptebenen]
+    Der Abstand eines Punktes \((a,b,c)\) von 
+    \begin{itemize}
+        \item der \(x_1x_2\)-Ebene beträgt genau \(|c|\)
+        \item der \(x_1x_3\)-Ebene beträgt genau \(|b|\)
+        \item der \(x_2x_3\)-Ebene beträgt genau \(|a|\)
+    \end{itemize}
+\end{proposition}
+\begin{proof}
+    Wir verwenden das Vorgehen aus 
+\end{proof}
+
+\section{Geometrische Figuren}
+In diesem Abschnitt widmen wir uns einigen grundlegenden geometrischen Figuren im dreidimensionalen Raum, wie Quadern, Kugeln, Zylindern, Kegeln, Pyramiden, Parallelotopen und weiteren. Insbesondere wollen wir geometrische Eigenschaften dieser Figuren, wie etwa Flächeninhalte und Volumen, sammeln und besser mit Anwendungsproblemen dieser Figuren umgehen können. 
+
+\section{Projektionen}
+Oft möchte man eine Gerade auf eine Ebene, einen Punkt auf eine Ebene oder einen Punkt auf eine Gerade projezieren. Anschaulich verstehen wir unter einer \textit{Projektion} folgendes: Wir betrachten die Gerade 
+\begin{equation*}
+    g: \vec x = \colvec[3]{1}{1} + t\colvec[3]{0}{2}
+\end{equation*}
+
+Projektionen von Punkten auf Ebenen haben wir bereits als Lotfußpunkte kennengelernt. 
+
+\section{Spiegelungen}
+
+\section{Schnittwinkel}
+

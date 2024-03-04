@@ -1,0 +1,223 @@
+\chapter{Einführung}
+
+\section{Grundlegende Bezeichnungen in der Mathematik} \label{sec:grundlegende-bezeichnungen-in-der-mathematik}
+
+Hier wollen wir erstmal noch ein Akronym erwähnen: \acrfull{gcd}.
+
+Das typische Vorgehen in einer Mathematik-Vorlesung ist:
+\begin{enumerate}
+    \item Eine Definition wird eingeführt. 
+    \item Eigenschaften des neu eingeführten Objektes werden bewiesen. 
+    \item Beispiele. 
+\end{enumerate}
+In einer guten Vorlesung weiß man bereits vor der Definition, warum man sich denn überhaupt für das eingeführte Objekt interessieren sollte oder zumindest wurde einmal davor angekündigt, dass diese Objekte sich im weiteren Verlauf als hilfreich erweisen werden. Untersucht man Eigenschaften von bestimmten Objekten oder etwa wie gewisse Objekte miteinander "`interagieren"', so gibt es verschiedene "`Ebenen"', auf denen dies mathematisch geschieht. Viele Autoren entscheiden sich bewusst dagegen, diese verschiedenen Ebenen klar zu trennen, ich halte es jedoch für sinnvoll die folgende Trennung vorzunehmen: 
+\begin{itemize}
+    \item \textit{Definition}: Eine Definition benennt ein mathematisches Objekt mit bestimmten Eigenschaften. Oft werden auch neue Notationen oder Sprechweisen um ein mathematisches Objekt eingeführt. Eine einfache Formulierung hierfür ist "`Erfüllt ein Objekt A die Eigenschaften E1, E2, ..., so nennen wir es B"'. 
+    
+    \item \textit{Satz}: Sätze sind die Herzstücke der Mathematik, das "`große Kino"'. In Sätzen finden sich die wichtigeren Aussagen.  
+    
+    \item \textit{Proposition}: Eine Proposition ist eine praktische, für sich selbst stehende Aussage über ein oder mehrere mathematische Objekte.  
+
+    \item \textit{Lemma}: Ein Lemma ist eine Hilfsaussage, etwa für den Beweis einer Proposition oder eines Satzes. Die Aussage eines Lemmas ist meist primär für den Beweis einer weiteren (wichtigeren) Aussage relevant. Oftmals sind jedoch bereits Lemmas so bedeutsam, dass ihre Aussagen auch losgelöst von Sätzen zitiert und referenziert werden. 
+
+    \item \textit{Korollar}: Korollare sind direkte Folgerungen aus Propositionen, Lemmas oder Sätzen, also aus bereits zuvor bewiesenen Aussagen. Sie lassen sich meist sehr direkt aus einer zuvor bewiesenen Aussage herleiten und werden deshalb auch von vielen Autoren eher unter dem Begriff "`Folgerung"' geführt. 
+\end{itemize}
+Diese Trennung ist extrem fruchtbar. Denn in Sätzen, Propositionen, Lemmas oder Korollaren werden Aussagen über mathematische Objekte formuliert, die zuvor in einer Definition eingeführt wurden. Weiß man also, dass ein betrachtetes Objekt einer Definition genügt, so lassen sich die über das Objekt formulierten Sätze, Propositionen, Lemmas und Korollare einfach anwenden. 
+
+Im Verlauf des Buches tauchen viele verschiedene Definitionen, Propositionen, Lemmas, Sätze und Korollare auf. Damit man bei alle diesen nicht den Überblick verliert und auch im weiteren Verlauf diese Aussagen referenzieren kann, sind diese alle durchnummeriert. 
+
+Neben Sätzen, Propositionen, Lemmas und Korollaren gibt es noch einen weiteren zentralen Begriff in der Mathematik, der erst seit ca. dem 19ten Jahrhundert von enormer Bedeutung sind: \textbf{Axiome}. Sie sind so zentral, dass es keine Untertreibung ist, von ihnen als Fundament aller Mathematik zu sprechen. Denn sie bilden den entscheidenden Baustein, der es ermöglicht wirklich rigoros Mathematik zu betreiben. Aber hier müssen wir nun die leicht unterschiedliche Verwendung dieses Begriffs unterscheiden. Man sieht den Begriff "`Axiom"' einmal oft in mathematischen Definitionen und dann noch auf einer weitaus grundlegenderen Ebene. Beginnen wir erst mit zweiterem, um anschließend die Verwendung im ersteren Kontext zu erklären. Was sind Axiome nun also? Das lässt sich tatsächlich trotz ihrer entscheidenden Bedeutung sehr einfach beantworten: Ein Axiom ist eine Aussage, die von der man festlegt, dass sie korrekt ist, ohne zu beweisen, dass sie gelten würde. Der Grundgedanke ist folgender: Beweise sind im Endeffekt nur eine Anreihung von Folgerungen und Begründungen für diese Folgerungen. Wenn man nun also jede Folgerung mit einer Aussage begründen kann, dann muss man ja zunächst wissen, dass diese Aussage, die man für seine Begründung verwendet auch tatsächlich gilt. Wie zeigt man also dass eine solche Aussage gilt? Wieder durch eine Folge aus Folgerungen und Begründungen für diese Folgerungen. Dieses Spiel kann man nun bis in die Unendlichkeit weiterführen. Das ist aber ein Problem. Denn auch hier muss man sich die Frage stellen: Wann kommt man denn dann zu einem Ende? Wann ist man beim Anfang, bei der fundamentalsten Aussage von allen angekommen? Kann es so eine fundamentalste Aussage, die vor allen anderen Aussagen steht überhaupt geben? Nein! Denn woher sollen wir denn wissen, dass diese Aussage tatsächlich stimmt? Dafür müssten wir sie ja wieder begründen durch neue Aussagen. Mist, wir haben hier unseren ersten Widerspruchsbeweis geführt. Wenn wir erfolgreich Mathematik betreiben wollen, dann sind wir also dazu gezwungen, an irgendeiner "`geeigneten"' Stelle Stop zu machen und dann diese Aussage als so fundemantal anzusehen, dass wir sie als allgemein gegebenen, d.h. immer geltend annehmen. Eine solche Aussage nennen wir dann Axiom. 
+
+Jetzt stellt sich zwingend die Frage: Wenn wir einmal einen solchen Stop eingelegt und damit bestimmte Axiome festgelegt haben, können wir dann wissen, dass wir diese Axiome niemals durch andere noch fundamentaleren Aussagen begründen könnten? Nein! Dafür gibt es auch einige prominente Beispiele aus der Geschichte der Mathematik. Für die natürlichen Zahlen \(\mathbb N\) gibt es zum Beispiel die \textit{Peano-Axiome}. Diese Axiome wurden 1889 von dem italienischen Mathematiker Giuseppe Peano formuliert. Sie beschreiben alle die grundlegenden Eigenschaften, die man benötigt, um mit den natürlichen Zahlen umgehen zu können. Und davon gibt es einige. Es stellte sich allerdings heraus, dass sich die natürlichen Zahlen mithilfe der 1930 entwickelten \textit{Zermelo-Fraenkel-Mengenlehre} tatsächlich aus diesem System an Axiomen eindeutig konstruieren lassen. Man hatte also mit der Zermelo-Fraenkel-Mengenlehre eine Sammlung an Axiomen gefunden, aus denen man insbesondere die Existenz der natürlichen Zahlen in ihrer bereits bekannten Form folgern konnte. Somit sind die Peano-Axiome in diesem System hinfällig - sie müssen nicht länger als einfach gegeben angenommen werden, sondern können rigoros aus elementarerern Aussagen hergeleitet werden. Das zeigt aber auch: Man könnte in bestimmten Kontexten auch einfach die Peano-Axiome als gegeben annehmen und trotzdem ausreichen flexibel sein, um sehr viele Probleme sinnvoll angehen zu können. Damit kommen wir auch zur Verwendung des Begriffs "`Axiom"' in mathematischen Definitionen. So spricht man zum Beispiel von den Eigenschaften einer Gruppe auch oft als Axiome. Denn in bestimmten Kontexten reicht es, von vornerein anzunehmen, dass ein Objekt eine Gruppe ist. Was ist damit genau gemeint? Die ganzen Zahlen \(\mathbb Z\) bilden zusammen mit der gewöhnlichen Addition eine Gruppe. Darunter muss man sich jetzt nichts vorstellen können, nur so viel: Das bedeutet einfach nur, dass die ganzen Zahlen \(\mathbb Z\) zusammen mit der gewöhnlichen Addition bestimmte Eigenschaften erfüllen. Wenn man sich jetzt mit den ganzen Zahlen auseinandersetzt, dann reicht es in bestimmten Kontexten, von vorneherein vorauszusetzen, dass die ganzen Zahlen mit der gewöhnlichen Addition eine Gruppe bilden. In anderen Worten: Wir nehmen einfach ohne Beweis an, dass die ganzen Zahlen mit der gewöhnlichen Addition die Eigenschaften einer Gruppe erfüllen. Das ist genau der axiomatische Zugang, den wir zuvor genauer erläutert haben. Wir definieren quasi die natürlichen Zahlen als Objekt, dass zusammen mit der Addition bestimmte Eigenschaften erfüllt. Das veranschaulicht, warum man in manchen Definitionen und einigen Autoren noch den Begriff "`Axiom"' in Definitionen wiederfindet. Man könnte so in gewisser Art und Weise jedes Objekt über seine Eigenschaften axiomatisch einführen. Wichtig ist dabei nur, dass sich durch das Einführen dieses Objekts keine Widersprüche zu anderen Axiomen entstehen. 
+
+Der folgende Exkurs geht auf eine entscheidende Frage ein, die sich ganz fundamental aus der allgemeinen Betrachtung von axiomatischen Systemen und damit auch der Mathematik ergibt. 
+
+\begin{exkurs}[Vollständigkeit der Mathematik]
+    Als die axiomatische Formalisierung der Mathematik zu Beginn des 20ten Jahrhunderts zu einem großen Anliegen der Mathematik im allgemeinen wurde, beschäftigten sich viele Mathematiker mit einer entscheidenden Frage: Kann eine Sammlung von Axiomen gefunden werden, sodass man mit Sicherheit davon ausgehen kann, dass basierend auf dieser Sammlung jede beliebige Aussage garantiert bewiesen oder widerlegt werden kann? Etwas formaler formuliert: Existiert eine Sammlung an Axiomen, sodass jede Aussage eindeutig bewiesen oder widerlegt werden kann? Viele bedeutende Mathematiker des 20ten Jahrhunderts hatten die Hoffnung, dass diese Frage tatsächlich mit Ja beantwortet werden könnte. Denn mit dieser Frage geht eine andere Frage einher, die der deutsche Mathematiker David Hilbert um 1920 herum im sogenannten \textit{Hilbertprogramm}\index{Hilbertprogramm} verfolgte: Ist die axiomatische Mathematik widerspruchsfrei? Diese Frage lässt sich auch etwas anders formulieren: Können wir allgemein beweisen, dass es in axiomatischen Systemen keine gefolgerten Aussagen geben kann, die sich widersprechen? Der österreichische Mathematiker Kurt Gödel beantwortete diese Frage 1931 mit einem gleichermaßen eindeutigen und ernüchternden Nein! Nach Gödel gibt es in bestimmten formalen logischen Systemen, d.h. in bestimmten Sammlung an Axiomen, Aussagen, die weder bewiesen noch widerlegt werden können. Unter diese bestimmten Systeme fällt auch die "`moderne Mathematik"'. Es kann also immer passieren, dass die größten Probleme der Mathematik zu diesen Aussagen zählen, d.h. dass man diese nie lösen kann. 
+
+    Nach diesem kurzen Umriss möchte ich noch betonen, dass dieser Exkurs nur eine stark vereinfachte Darstellung enthält, die moderne elementare Probleme der Mathematik aufzeigen soll. 
+\end{exkurs}
+
+Obwohl wir jetzt recht einfach erklären können, was Axiome eigentlich sind, merken wir schnell, dass das Formulieren von "`guten"' Axiomen gar nicht so einfach ist. Denn hieran scheiterte selbst einer der Grundväter der Axiomatik: der griechische Mathematiker Euklid. Vielleicht hast du schon einmal etwas von \textit{euklidischer Geometrie}\index{Euklidische Geometrie} gehört. Die uns bereits vertraute, zwei- und dreidimensionale Geometrie ist typischerweise euklidisch. 
+
+\section{Logische Begriffe in der Mathematik}
+Den Begriff "`Äquivalenzumformung"' ist dir bestimmt schon längst ein Begriff. Wahrscheinlich kennst du auch schon das mathematische Symbol für eine Äquivalenzumformung: \(\iff\). In der Schule wird es meist einfach so benutzt und nicht weiter auf dessen eigentliche Bedeutung eingegangen. Aber indem man sich bewusst macht, für was dieses Symbol eigentlich steht, klärt man gleichzeitig in der größtmöglichen Allgemeinheit die Bedeutung der Begriffe "`notwendige Bedingung"' und "`hinreichende Bedingung"'. Diese werden vor allem in der Kurvendiskussion beim Bestimmen von Extremstellen/-punkten eine große Rolle spielen. Wir beginnen nun mit einer Definition, um logische Zusammenhänge konkret in Worten fassen zu können. 
+\begin{definition}(Folgerung/Implikation, Äquivalenz)
+    Seien \(A\) und \(B\) irgendwelche logischen Aussagen. Wir schreiben \(A\implies B\), wenn aus der Aussage \(A\) die Aussage \(B\) folgt. Folgt zusätzlich noch aus der Aussage \(B\) die Aussage \(A\), d.h. \(A \impliedby B\), so sagen wir \(A\) ist \textbf{äquivalent} zu \(B\) und schreiben \(A \iff B\). Folgt aus \(A\) nicht die Aussage \(B\), so schreiben wir auch manchmal \(A \centernot\implies B\). Alternativ zu Folgerungen sprechen wir auch oft von \textbf{Implikationen}. Entsprechend sagen wir zu \(A \implies B\) auch "`\(A\) impliziert \(B\)"'. 
+\end{definition}
+Diese Definition ist nun zunächst noch sehr abstrakt. Bereits aus einigen einfachen "`unmathematischen"' Alltags-Beispielen lässt sich aber schon veranschaulichen, warum die obige Genauigkeit enorm wichtig ist. 
+\begin{example}
+    \begin{enumerate}[label=(\arabic*)]
+        \item Jeder Apfel ist eine Frucht, d.h. wir können für irgendein "`Objekt"' \(A\) schreiben 
+        \begin{equation*}
+            A \text{ ist ein Apfel} \implies A \text{ ist eine Frucht}
+        \end{equation*}
+        Allerdings wissen wir auch, dass nicht jede Frucht ein Apfel ist. Denn auch eine Banane ist eine Frucht, aber offenbar kein Apfel. Also wissen wir ebenfalls, dass für irgendein Objekt \(A\) gilt 
+        \begin{equation*}
+            A \text{ ist eine Frucht} \centernot\implies A \text{ ist ein Apfel}
+        \end{equation*}
+        denn mit der Banane haben wir bereits ein Gegenbeispiel für die Implikation gefunden. Insgesamt haben wir also gezeigt, dass die Aussage "`\(A\) ist ein Apfel"' \textit{nicht} äquivalent ist zu der Aussage "`\(A\) ist eine Frucht"'. 
+
+        \item Analog zum ersten Teil dieses Beispiels bemerken wir: Selbst wenn Politiker meistens Juristen sein sollten, die Umkehrung nicht automatisch gilt. Nicht jeder Jurist muss also handeln wie die meisten Politiker. Das ist auch klar, wenn man auf die Statistiken schaut: Der Anteil der politisch stark engagierten Juristen ist gering. Nimmt man nun also an, dass alle Politiker "`schlecht"' sind, so folgt nicht automatisch, dass alle Juristen schlecht sind. Hier widerspricht die Logik meinem Onkel also massivst. 
+    \end{enumerate}
+\end{example}
+
+\begin{definition}[Notwendige Bedingung, Hinreichende Bedingung]
+    
+\end{definition}
+
+Neben den obigen Sprechweisen und Notationen sind die folgenden für abstrakte und kompakte mathematische Formulierungen elementar. Ich werde zwar versuchen, von dieser Form in diesem Buch eher weniger Gebrauch zu machen, allerdings sollte man erstens keine Angst vor diesen Symbolen\footnote{Ich erinnere mich noch sehr gut daran, als ich die ersten Male im Mathestudium mit der \(\varepsilon\)-\(\delta\)-Definition von Stetigkeit arbeiten sollte. Diese formuliert sich nämlich kompakt wie folgt: Eine Funktion \(f:\mathbb R^m\to\mathbb R^n\) über metrischen Räumen \((\mathbb R^m, \|\cdot\|)\) und \((\mathbb R^n, \|\cdot\|)\) heißt stetig im Punkt \(x_0 \in \mathbb R^m\), wenn \(\forall \varepsilon>0 \: \exists \delta >0 \: \forall x \in D: \|x-x_0\|< \delta \implies \|f(x) - f(x_0)\|< \varepsilon\). } und zweiten sie einfach einmal gesehen haben. 
+
+\begin{definition}[Logische Symbole] %\(\exists\), \(\exists!\), \(\forall\), \(\lnot\)
+    
+\end{definition}
+
+\section{Mengentheoretische Begriffe und Symbole}
+Eine Mengenlehre, die in der modernen Mathematik ziemlich der Standard geworden ist, ist die in Kapitel \ref{sec:grundlegende-bezeichnungen-in-der-mathematik} angesprochene \textit{Zermelo-Fraenkel-Mengenlehre}. Sie formuliert insgesamt 10 Axiome, die allesamt Eigenschaften allgemeiner mathematischer Objekte bezüglich der Beziehung \(\in\) beschreiben. Man spricht dann auch von \(A \in B\) als \(A\) ist Element von \(B\). Axiomatisch ist hier nur wichtig, dass man sich eigentlich noch gar nichts unter dieser Beschreibung vorstellen darf. \(A\) und \(B\) sind tatsächlich einfach irgendwelche mathematischen Objekte. Im Kontext der Zermelo-Fraenkel-Mengenlehre nennt man dann jedoch jedes mathematische Objekt einfach \textit{Menge}. Damit muss man hierbei wirklich alles über Bord schmeißen, was man denkt über Mengen zu wissen. Mengen sind nun keine Boxen mehr, die irgendwelche Elemente enthalten - Alles ist eine Menge. Und Mengen haben die Eigenschaften, die in den Zermelo-Fraenkel-Axiomen abstrakt beschrieben werden. 
+
+Das alles ist für uns in der Schule (und auch für die meisten Mathematiker) allerdings gar nicht so relevant. Denn es reicht uns, dass Zermelo und Fraenkel diese Axiome aufgestellt haben und diese uns genau die Vorstellung liefern, die wir von vornerein gerne von Mengen hätten. Wir können uns also Mengen abstrakt vorstellen als eine Art von Behältnis, das bestimmte Elemente beinhalten kann. Wichtig dabei ist nur, dass eine Menge ein Element nur genau einmal enthalten kann. 
+
+\begin{definition}[Mengen, Elemente, Teilmengen]
+    Für eine Menge \(A\), die die Elemente \(a_1, a_2 , \dots\) enthält, schreiben wir 
+    \begin{equation*}
+        A = \{a_1, a_2, \dots \}
+    \end{equation*}
+    Weiter schreiben wir für diese Menge auch \(a_i \in A\) für alle Elemente \(a_i\) und sagen "`\(a_i\) ist Element von \(A\)"'. Liegt ein \(b\) nicht in der Menge \(A\), so schreiben wir analog \(b \notin A\). Liegen alle Elemente von \(A\) in einer Menge \(B\), so sagen wir "`\(A\) ist \textbf{Teilmenge} von \(B\)"' und schreiben \(A \subseteq B\). Gibt es ein Element in \(B\), das garantiert nicht in \(A\) liegt, so schreiben wir auch nur \(A \subset B\) und sagen \(A\) ist eine \textbf{echte Teilmenge} von \(B\). 
+\end{definition}
+
+Wir führen nun eine kompakte Notation für kompliziertere Mengen ein. 
+\begin{definition}[Auswahl]
+    Für die Menge \(A\), die alle Elemente einer Obermenge \(B\) enthält, welche eine Aussage \(\mathscr A\) erfüllen, schreiben wir 
+    \begin{equation*}
+        A = \{x \in B \mid \mathscr A(x) \text{ gilt}\}
+    \end{equation*}
+\end{definition}
+
+
+\begin{definition}[Komplement]
+    
+\end{definition}
+
+\begin{example}
+    \begin{thmenum}
+        \item \textit{Einfache Mengen}: Die Menge \(A\), welche die Elemente \(5, 5, 5, 5, 5\) enthält, notiert man als \(A = \{5\}\). Die Menge \(B\), welche die Zahlen \(1, 2, 3, 4, 5\) enthält, notieren wir als \(B = \{1, 2, 3, 4, 5\}\). 
+
+        \item \textit{Auswahlmengen}:
+    \end{thmenum}
+\end{example}
+
+\begin{definition}[Kartesisches Produkt]
+    
+\end{definition}
+
+Zuletzt wollen wir nun noch Begriffe einführen, um Funktionen besser beschreiben zu können. Was sind eigentlich Funktionen genau? Bestimmt kannst du dich noch daran erinnern, dass dein Leherer, bzw. deine Lehrerin zu Skizzen von Funktionen gesagt hat, dass diese insofern sauber sein müssen, dass jedem x-Wert immer nur \textit{genau ein} y-Wert zugeordnet wird. 
+
+\section{Was sind eigentlich Zahlen?} \label{sec:was-sind-eig-zahlen}
+In der Mathematik haben die Zahlen eine lange Geschichte. Die meisten haben wahrscheinlich schon einmal am Rande von dem alten Streit über die Null mitbekommen. Denn lange bevor die Mathematik formalisiert wurde in der Form, in der wir heute mit ihr umgehen, bliblablub, bla bla bla, von natürlichen Zahlen \(\mathbb N\) \index{Zahlen!Natürliche Zahlen \(\mathbb N\)} zu den reellen Zahlen \(\mathbb R\) \index{Zahlen!Reelle Zahlen \(\mathbb R\)}.
+
+\section{Weitere arithmetische Symbole}
+Neben den griechischen Buchstaben und mengentheoretischen Symbolen wie dem Durchschnitt \(\cap\) oder der Vereinigung \(\cup\) gibt es noch einige arithmetische Symbole, die zunächst sehr einschüchternd aussehen. Sie sind aber eigentlich total harmlos und helfen eher sogar dabei kompakt Ausdrücke aufzuschreiben. 
+
+Bevor wir allerdings mit den "`gruseligen"' Symbolen beginnen, müssen wir noch einige Dinge beachten. Denn in der Mathematik muss man mit allgemeinen Aussagen immer aufpassen. Sieht ein Mathematiker das Plus-Symbol \(+\) ohne irgeneinen Kontext, muss er sich als allererstes fragen, wie dieses denn definiert ist, bzw. noch viel eher, mit welchen mathematischen Objekten er es überhaupt zu tun hat. Denn Multiplikation und Addition kann man auch für andere mathematische Objekte als Zahlen definieren (wie zum Beispiel Funktionen, Matrizen und Vektoren). Der Titel dieses Kapitels nimmt es allerdings schon vorne weg: Wir beschäftigen uns hier mit \textit{arithmetischen} Symbolen, d.h. mit Symbolen zum Rechnen mit Zahlen. Wie wir mit Zahlen und den arithmetischen Verknüpfungen auf ihnen, d.h. Addition, Multiplikation (und Subtraktion und Division), umgehen können, haben wir uns bereits in Kapitel \ref{sec:was-sind-eig-zahlen} genauer angeschaut. Für dieses Kapitel und alle folgenden Kapitel gehen wir dann davon aus, dass wir \textit{nur} Zahlen aus den natürlichen Zahlen \(\mathbb N\), den ganzen Zahlen \(\mathbb Z\), den rationalen Zahlen \(\mathbb Q\) oder den reellen Zahlen \(\mathbb R\) betrachten, sofern wir nicht explizit erwähnen, dass wir andere Objekte betrachten. Denn im folgenden werden wir häufig die \textit{Kommutativität}, die \textit{Assoziativität} oder die \textit{Distributivität} über diesen Zahlen zusammen mit den zuvor genannten arithmetischen Operationen benötigen. Diese Eigenschaften gelten nicht für irgendwelche Mengen mit irgendwelchen Verknüpfungen! Wir werden später sehen, dass z.B. Funktionen bezüglich der Verkettung, bzw. Verknüpfung \textit{nicht} kommutativ, aber sehrwohl assoziativ sind. 
+
+\begin{definition}[Summen, Doppelsummen, Mehrfachsummen]
+    Für eine Summe\index{Summen!Summe} aus \(n\) Summanden \(a_i\), also \(a_1 + a_2 + \dots + a_n\) schreiben wir 
+    \begin{equation*}
+        \sum_{i=1}^n a_i = a_1 + a_2 + \dots + a_n
+    \end{equation*}
+    Dabei heißt der Index \(i\) in der Summe \textbf{Laufvariable}\index{Summen!Laufvariable} und man sagt "`wir summieren die \(a_i\) über \(i=1\) bis \(n\)"'. Der \textbf{Startindex} \(s\) der Summe kann beliebig gewählt werden. Dann schreiben wir 
+    \begin{equation*}
+        \sum_{i=s}^n a_i = a_s + a_{s+1} + \dots + a_n
+    \end{equation*}
+    Ist \(s> n\), so sprechen wir von einer \textbf{leeren Summe} und setzen 
+    \begin{equation*}
+        \sum_{i=s}^n a_i = 0
+    \end{equation*}
+    Zwei ineinander verschachtelte Summen \(\sum_{i=s_i}^n \sum_{j=s_j}^n a_{ij}\) nennen wir \textbf{Doppelsummen} und schreiben im Fall \(s_i = s_j\), d.h. wenn die Summationsindexe \(i\) und \(j\) denselben Startindex haben, auch 
+    \begin{equation*}
+        \sum_{i,j=s_i}^n a_{ij} := \sum_{i=s_i}^n \sum_{j=s_i}^n a_{ij}
+    \end{equation*}
+    Betrachten wir mehr als zwei verschachtelte Summen, d.h. Summen der Gestalt \(\sum_{i_1=s_1}^n \cdots \sum_{i_m=s_m}^n a_{i_1\dots i_m}\), so sprechen wir von \textbf{Mehrfachsummen} und schreiben
+    \begin{equation*}
+        \sum_{i_1, \dots, i_m=s_1}^n a_{i_1 \dots i_n} := \sum_{i_1=s_1}^n \cdots \sum_{i_m=s_m}^n a_{i_1\dots i_m}
+    \end{equation*}
+\end{definition}
+Die Summenglieder/Summanden \(a_i\) in einer Summe hängen dabei meist direkt von dem Summationsindex ab, können aber auch unabhängig davon sein. Außerdem wird Teil \ref{prop:rechnen-mit-summen-(2)} in Proposition \ref{prop:rechnen-mit-summen} die Definition von Doppel-, bzw. Mehrfachsummen rechfertigen. Denn eigentlich müssten wir uns zwingend die Frage stellen,   Zunächst wollen wir uns jedoch einige Beispiele anschauen, um mit diesem neuen Symbol etwas warm zu werden. 
+
+\begin{example}[Kompakte Summen]
+    \begin{thmenum}
+        \item \label{bsp:konstante-summanden} \textit{Konstante Summanden}: Wir schreiben die reelle Zahl \(10\) als Summe von dem Summanden \(2\), also \(10 = 2+2+2+2+2\). Alternativ können wir kompakt schreiben 
+        \begin{equation*}
+            \sum_{i=1}^5 2 = 2 + 2+ 2+ 2+ 2 = 10
+        \end{equation*}
+        Auffällig ist hier, dass gilt \(\sum_{i=1}^5 2 = 5\cdot 2 = (5 - 1 + 1) \cdot 2 \). Wir erkennen zudem, dass der Term \((5-1+1)\) genau der Anzahl an Summanden in der Summe \(\sum_{i=1}^5 2\) entspricht. Das sehen wir auch, wenn wir die obige Summe etwas anders aufschreiben: 
+        \begin{equation*}
+            \sum_{i=3}^7 2 = 2 + 2 + 2 + 2 + 2 = (7-3+1)\cdot 2 = 10
+        \end{equation*}
+        Es stellt sich also die Frage, ob diese Beobachtung auch in voller Allgemeinheit gilt. 
+        
+        \item \textit{Multiplikation}: Formalisieren wir unsere Beobachtung aus Teil \ref{bsp:konstante-summanden} dieses Beispiel-Blocks in den erst folgenden Proposition \ref{prop:rechnen-mit-summen}, so können wir die arithmetische Multiplikation einfacher definieren:
+        \begin{equation*}
+            n\cdot m := \sum_{i=1}^n m = \underbrace{m+\cdots +m}_{n-\text{mal}}
+        \end{equation*}
+
+        \item \textit{Summe der Quadratzahlen}: Nun wollen wir eine etwas kompliziertere Summe betrachten. 
+    \end{thmenum}
+\end{example}
+In den Beispielen haben wir bereits einige Vermutungen für allgemeinere Aussagen aufgestellt. Diese untermauern wir nun mit folgender Proposition. 
+
+\begin{proposition}[Rechnen mit Summen]\label{prop:rechnen-mit-summen}
+    \begin{thmenum}
+        \item \normal{Konstante Summen:} Ist der Summand \(a_i\) in einer Summe \(\sum_{i=s}^n a_i\) konstant, also immer gleich, d.h. \(a_1 = a_2 = \dots = a_n\), so gilt \begin{equation*}
+            \sum_{i=s}^n a_i = (n-s+1)\cdot a_1
+        \end{equation*}
+        Der Faktor \((n-s+1)\) ist dabei genau die Anzahl an Summanden, die in der Summe auftreten. 
+
+        \item \label{prop:rechnen-mit-summen-(2)} \normal{Kommutativität von Summen:} Für ineinander geschachtelte Summen mit den Summanden \(a_{ij}\) gilt 
+        \begin{equation*}
+            \sum_{i=s_i}^n \sum_{j=s_j}^n a_{ij} = \sum_{j=s_j}^n \sum_{i=s_i}^n a_{ij}
+        \end{equation*}
+
+        \item \normal{Indexshift nach unten}: Es gilt 
+        \begin{equation*}
+            \sum_{k=n}^N a_k = \sum_{k=n-i}^{N-i} a_{k+i}
+        \end{equation*}
+        sofern \(a_{k+i}\) für alle \(k\in \{n-i, \dots, N-i\}\) definiert ist. 
+
+        \item \normal{Indexshift nach oben}: Es gilt 
+        \begin{equation*}
+            \sum_{k=n}^N a_k = \sum_{k=n+i}^{N+i} a_{k-i}
+        \end{equation*}
+        
+    \end{thmenum}
+\end{proposition}
+Warum Indexshifts sehr praktisch sein können, zeigt folgendes Beispiel:  
+
+\begin{exampleth}[Geschickte Indexshifts]
+    Wir betrachten die Summe 
+    \begin{equation*}
+        \sum_{k=1}^{10} \frac{1}{k}
+    \end{equation*}
+    
+\end{exampleth}
+
+Wir haben nun also eine ganz gute Idee, wie wir mit unserer neu gewonnenen Schreibweise für Summen umgehen können. Nun betrachten wir eine kompakte Notation, jetzt aber für Produkte. 
+
+\begin{definition}[Produkte]
+    
+\end{definition}
+
+\begin{example}
+    \begin{thmenum}
+        \item \textbf{Fakultät}\index{Fakultät}: Mit unserem neuen Symbol können wir die Fakultät einer natürlichen Zahl \(n \in \mathbb N\) einfach definieren: 
+        \begin{equation*}
+            n! := \prod_{i=1}^n i = 1\cdot 2 \cdot 3 \cdots (n-2)(n-1)n
+        \end{equation*}
+
+        \item 
+    \end{thmenum}
+\end{example}
+
+\begin{proposition}[Rechnen mit Produkten]
+    
+\end{proposition}

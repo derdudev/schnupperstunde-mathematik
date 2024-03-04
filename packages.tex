@@ -1,0 +1,142 @@
+\usepackage[ngerman]{babel}
+
+\usepackage{graphicx, float}
+\usepackage[top=2.5cm, bottom=2.5cm, left=3.5cm, right=3.5cm]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{sourcecodepro}
+% \usepackage{mathptmx}
+
+\usepackage{lineno}
+% \linenumbers
+
+\usepackage{imakeidx}
+\makeindex
+% multiple indices: https://tex.stackexchange.com/questions/472/how-can-i-have-two-or-more-distinct-indexes
+
+% to float text around figures better
+\usepackage{wrapfig}
+
+% to include extern pdfs: https://tex.stackexchange.com/questions/438775/how-to-insert-a-pdf-page-as-a-front-cover
+\usepackage{pdfpages}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{matrix, graphs}
+\usetikzlibrary{hobby} % for blobs
+
+% define custom lists
+\usepackage[shortlabels]{enumitem}
+\newlist{thmenum}{enumerate}{1} % to be used only inside 'theorem' environments
+\setlist[thmenum]{label=\textup{(\arabic*)}} % , ref=\thetheorem \textup{(\arabic*)}}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\usepackage{nicematrix}
+
+%\usepackage{asymptote} 
+
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+
+%\usepackage{minted}
+
+\usepackage[capitalize]{cleveref}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Imh}{\normalfont\text{Im } \Bbb H}
+\newcommand{\dsum}{\oplus}
+\newcommand{\normal}[1]{{\normalfont #1}}
+\newcommand{\bild}{\normalfont\text{Bild}(\varphi)}
+\newcommand{\bilda}{\normalfont\text{Bild}(\varphi_A)}
+\newcommand{\bildb}{\normalfont\text{Bild}(\varphi_B)}
+\newcommand{\rg}{\normalfont\text{rg}}
+\newcommand{\gl}{\normalfont\text{GL}}
+\newcommand{\kernm}{\normalfont\text{Kern}}
+\newcommand{\spur}[1]{\,\normalfont\text{Spur}\, #1}
+\newcommand{\real}[1]{\,\normalfont\text{Re}\, #1}
+\newcommand{\eqv}{\:\Leftrightarrow\:}
+\newcommand{\sprod}[1]{\langle #1 \rangle}
+\newcommand{\ggT}{\normal{\text{ggT}}}
+\newcommand{\diag}{\normal{\text{diag}}}
+
+\DeclareMathOperator{\poisson}{Poisson}
+\DeclareMathOperator{\binomial}{Binomial}
+
+% see https://tex.stackexchange.com/questions/2705/typesetting-column-vector
+\newcommand*\colvec[3][]{
+\begin{pmatrix}\ifx\relax#1\relax\else#1\\\fi#2\\#3\end{pmatrix}
+}
+
+\renewcommand{\textbf}[1]{{\normalfont\bf #1}}
+
+% für matrix gauß-operationen aka. pfeile: https://tex.stackexchange.com/questions/40280/how-can-i-visualize-matrix-operations
+\usepackage{gauss} 
+
+\usepackage[acronym]{glossaries}
+
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+\newacronym{lcm}{LCM}{Least Common Multiple}
+
+\makeglossaries
+
+\usepackage{amsthm}
+
+\usepackage{newtxtext}        
+\usepackage[varvw]{newtxmath}
+
+\newtheoremstyle{mystyle}% name
+  {.5em}% Space above
+  {\topsep}% Space below
+  {\itshape}% Body font
+  {}% Indent amount
+  {\bfseries}% Theorem head font
+  {.}%Punctuation after theorem head
+  {.5em}%Space after theorem head
+  {}% theorem head spec
+\theoremstyle{mystyle}
+
+\newtheorem*{theorem*}{Satz}
+%% this allows for theorems which are not automatically numbered
+
+\newtheorem{theorem}{Satz}[chapter]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollar}[theorem]{Korollar}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{exercise}[theorem]{Aufgabe}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{annotation}[theorem]{Anmerkung}
+\newtheorem{algorithm}[theorem]{Algorithmus}
+
+\AfterEndEnvironment{definition}{\noindent\ignorespaces}
+
+\theoremstyle{definition}
+\newtheorem{exampleth}[theorem]{Beispiel}
+\newtheorem{exkursth}[theorem]{Exkurs}
+
+\newenvironment{exkurs}{\begin{exkursth}}{\hspace{\fill}$\triangleleft$\end{exkursth}}
+\newenvironment{example}{\begin{exampleth}}{\hspace{\fill}$\triangleleft$\end{exampleth}}
+
+\usepackage{lineno}
+%% The above lines are for formatting.  In general, you will not want to change these.
+
+\usepackage[utf8]{inputenc}
+
+\numberwithin{equation}{chapter}
+
+% exclude subsections from TOC: https://latex.org/forum/viewtopic.php?t=1309
+\setcounter{tocdepth}{1}
