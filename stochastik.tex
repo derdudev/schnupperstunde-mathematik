@@ -1,0 +1,88 @@
+\chapter{Stochastik}
+
+\section{Was sind eigentlich Wahrscheinlichkeiten?}
+Intuitiver Umgang mit Wkeiten => Rigorose Rechtfertigung davon: Gesetz der großen Zahlen
+
+Axiomatische Wkeitsannahmen 
+
+Grundbegriffe um Wahrscheinlichkeiten: Wahrscheinlichkeitsraum, Ergebnisse, Ereignisse, Gegenereignisse, Wahrscheinlichkeit von Ereignissen
+
+\section{Rechenregeln für Wahrscheinlichkeiten}
+
+\begin{definition}[Bedingte Wahrscheinlichkeit]
+    Für zwei Ereignisse \(A\) und \(B\) ist die \textbf{bedingte Wahrscheinlichkeit von} \(A\) auf \(B\) gegeben durch 
+    \begin{equation*}
+        P(A|B) = \frac{P(A\cap B)}{P(B)}
+    \end{equation*}
+\end{definition}
+
+Diese Definition fällt nun zunächst etwas von Himmel. Leider geben die meisten Einführungen rund um bedingte Wahrscheinlichkeiten wenig bis keine mathematische rigorose Intuition dafür, \(P(A|B)\) tatsächlich als genau die Wahrscheinlichkeit zu interpretieren, dass \(A\) passiert, wobei \(B\) bereits geschehen ist. 
+
+\begin{theorem}[Zweite Pfadregel/Multiplikationsregel/Produktregel]\label{thm:multiplikationsregel-wkeiten}
+    Für beliebige Ereignisse \(A_1, \dots, A_n\) gilt 
+    \begin{equation*}
+        P\left(\bigcap_{i=1}^n A_i\right) = \prod_{k=1}^n \frac{P\left(\bigcap_{i=1}^k A_i\right)}{P(A_k)}
+    \end{equation*}
+    Insbesondere gilt also
+    \begin{equation}
+        P(A\cup B) = P(A) + P(B) - P(A \cap B)
+    \end{equation}
+\end{theorem}
+\begin{proof}
+    Siehe \cref{pro:multiplikationsregel-wkeiten}, \cpageref{pro:multiplikationsregel-wkeiten}.
+\end{proof}
+
+\subsection{Bedingte Wahrscheinlichkeiten}
+Im Alltag begegnen uns nicht nur "`Einzelereignisse"', sondern wie bereits zuvor angeschnitten auch "`zusammengesetzte Ereignisse"', d.h. Ereignisse, die aus der Beziehung mehrerer weiterer Ereignisse hervorgehen. Beispielsweise interessieren wir uns in manchen Fällen nicht nur für die Wahrscheinlichkeit \(P(A)\), bzw. \(P(B)\), dass das Ereignis \(A\), bzw. \(B\) eintritt, sondern auch für die Wahrscheinlichkeit \(P(A\cap B)\), dass sowohl das Ereignis \(A\), als auch das Ereignis \(B\) eintritt. 
+
+\section{Zufallsvariablen}
+Was ist das eigentlich? => definition
+
+Diskrete Zufallsvariablen vs. kontinuierliche Zufallsvariablen und deren Verteilungen
+
+\section{Verteilungen von Zufallsvariablen}
+
+\subsection{Bernoulli-Verteilung}
+(Einstufige) Bernoulli-Experimente!
+
+\subsection{Binomialverteilung}
+Betrachten ein spezielles Zufallsexperiment: Mehrstufige Bernoulli-Experimente
+
+\subsection{Normalverteilung}
+
+\subsection{Geometrische Verteilung}
+
+\subsection{Poisson-Verteilung}
+
+\section{Erwartungswert und Standardabweichung}
+
+\section{Typische Zufallsexperimente}
+Vierfeldertafel
+
+Mehrstufig mit Zurücklegen
+
+Mehrstufig ohne Zurücklegen 
+
+Fairness bei Glücksspiel untersuchen
+
+\section{Stochastische Unabhängigkeit von Ereignissen}
+
+\section{Hypothesentests}
+
+\subsection{Links- und rechtsseitige Hypothesentests}
+
+
+
+\appendix
+\chapter{Exkurse}
+
+\chapter{Wahrscheinlichkeitstheorie}
+\lipsum[5-10]
+Wir beweisen nun die Muliplikationsregel für Wahrscheinlichkeiten. 
+\begin{proof}[Beweis von Satz \ref{thm:multiplikationsregel-wkeiten}]\label{pro:multiplikationsregel-wkeiten} 
+    Zunächst machen wir dies, dann machen wir das.
+\end{proof}
+
+\chapter{Mengenlehre und Logik}
+
+\chapter{Analysis}

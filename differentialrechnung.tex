@@ -1,0 +1,163 @@
+\chapter{Differentialrechnung}
+Wir beginnen zunächst mit der formalen  Klärung einiger Begrifflichkeiten. 
+
+\section{Ableitungen}
+
+Anwendung: Knickfrei in eine Gerade übergehen. 
+
+\section{Tangente und Normale}
+Heranführung durch Anwendungen: Mittlere Änderungsrate und Momentane Änderungsrate. 
+
+Herleitung der Tangente über Sekante
+=> Das erste Mal Grenzwerte erwähnen und auf Exkurs verweisen. 
+
+\begin{definition}[Differenzenquotient]
+    
+\end{definition}
+
+\begin{definition}[Differenzierbar, Ableitung]
+    
+\end{definition}
+
+Herleitung der Tangente
+
+\begin{definition}[Tangente, Allgemeine Tangentengleichung]
+    
+\end{definition}
+
+
+Herleitung der Normalen: Intuitiv (drehen, mal schauen was passiert an 3 Beispielen), dann rigoros mit Vektoren und Orthogonalität (Vorwegnehmen, aber für genaueres auf später verweisen). 
+
+\begin{definition}[Normale, Allgemeine Normalengleichung]
+    
+\end{definition}
+
+\section{Ableitungsregeln}
+Einige mit dem Differenzenquotienten bestimmte Ableitungen. 
+\begin{example}
+    \begin{enumerate}
+        \item 
+    \end{enumerate}
+\end{example}
+
+Weitere besondere Ableitungen (sin, cos, exp, log). 
+
+Großer Satz mit Potenzregel, Faktorregel, Summenregel, Kettenregel, Produktregel, Quotientenregel
+\begin{theorem}[Grundlegende Ableitungsregeln]
+    \begin{enumerate}
+        \item \textbf{Potenzregel}:
+        \item \textbf{Faktorregel}:
+        \item \textbf{Summenregel}:
+    \end{enumerate}
+\end{theorem}
+
+\begin{theorem}[Produktregel]
+    
+\end{theorem}
+
+\begin{definition}[Verkettung]
+    v.a. Notation \(\circ\)
+\end{definition}
+
+\begin{theorem}[Kettenregel]
+    
+\end{theorem}
+
+\begin{theorem}[Quotientenregel]
+    
+\end{theorem}
+
+\section[\(e\)-Funktion]{Die Eulersche Zahl \(e\), die Exponentialfunktion und der natürliche Logarithmus}
+Geschichte der eulerschen Zahl: Als Grenzwert 
+\begin{definition}[Historische Definition der eulerschen Zahl]
+    Die \textbf{eulersche Zahl} \(e\) ist definiert als der folgende Grenzwert: 
+    \begin{equation*}
+        e = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n
+    \end{equation*}
+\end{definition}
+Es ist absolut nicht offensichtlich, dass der obige Grenzwert überhaupt existiert, d.h. ob die Folge \(\left(1+\frac{1}{n}\right)^n\) überhaupt konvergiert. 
+
+\begin{definition}[Historische Definition der Exponentialfunktion]
+    Die Exponentialfunktion für rationale Werte ist definiert als 
+    \begin{equation*}
+        e^{(\cdot)}: \mathbb Q \to \mathbb R, x \mapsto e^x
+    \end{equation*}
+\end{definition}
+
+Warum schränken wir uns bei dieser Definition noch auf rationale Werte ein? Bisher haben wir noch keinen Weg gefunden, Potenzierung mit reellen Potenzen zu definieren. Für die Potenzierung mit ganzzahligen Exponenten (siehe ...) und rationalen Exponenten (siehe ...) haben wir bereits rigorose Definitionen. 
+
+\begin{theorem}[Darstellung der Exponentialfunktion]
+    Für alle \(x \in \mathbb Q\) gilt 
+    \begin{equation}\label{eq:darstellung-historische-exponentialfunktion}
+        e^x = \lim_{n\to\infty}\left(1 + \frac{x}{n}\right)^n 
+    \end{equation}
+\end{theorem}
+Die obige Aussage ist bemerkenswert. Denn die Exponentialfunktion konnten wir bisher nur durch Potenzierung mit rationalen Potenzen definieren (siehe Definition). Bisher hatten wir noch keinen Weg, Potenzierung mit \textit{reellen} Potenzen zu definieren. Die rechte Seite aus der Darstellung \eqref{eq:darstellung-historische-exponentialfunktion} ist jedoch auch für reelle \(x \in \mathbb R\) definiert. So können wir diese rechte Seite einfach als Definition der Exponentialfunktion über den reellen Zahlen verwenden, d.h.
+\begin{definition}[Erweiterung der Exponentialfunktion auf reelle Werte]
+    Die Exponentialfunktion für reelle Werte ist definiert als 
+    \begin{equation*}
+        e^{(\cdot)}: \mathbb R \to \mathbb R, x \mapsto \lim_{n\to\infty}\left(1 + \frac{x}{n}\right)^n 
+    \end{equation*}
+    Schreiben wir \(e^x\) mit \(x \in \mathbb R\), so meinen wir stehts diese Definition, d.h. für \(x \in \mathbb R\) setzen wir
+    \begin{equation*}
+        e^x := \lim_{n\to\infty}\left(1 + \frac{x}{n}\right)^n 
+    \end{equation*}
+\end{definition}
+
+\begin{theorem}[Ableitung der Exponentialfunktion]
+    
+\end{theorem}
+\begin{proof}[Beweis (vgl. \href{https://proofwiki.org/wiki/Derivative_of_Exponential_at_Zero}{Proof Wiki})]
+    
+\end{proof}
+
+Analytische Herleitung als Exponentialfunktion, deren Ableitung sie selbst ist: Graphisch motivieren, dann explizit Ableitung einer allgemeinen Exponentialfunktion bestimmen. 
+
+Exkurs: Exponentialfunktion über Taylor-Entwicklung als Reihe 
+
+\begin{definition}[Analytische Definition der Exponentialfunktion]
+    
+\end{definition}
+
+Eigenschaften der Exponentialfunktion: Ableitung, Extrempunkte, Verhalten gegen pm Unendlich, Summe zu Produkt
+
+\begin{theorem}[Ableitung der \(e\)-Funktion]
+    
+\end{theorem}
+
+\begin{corollary}[Extrempunkte der Exponentialfunktion]
+    
+\end{corollary}
+
+\begin{theorem}[Funktionalgleichung der \(e\)-Funktion]
+    
+\end{theorem}
+
+Natürlicher Logarithmus als Umkehrfunktion => Warum ist \(e^x\) bijektiv?
+
+\begin{definition}[Natürlicher Logarithmus]
+    
+\end{definition}
+
+Eigenschaften des natürlichen Logarithmus: Produkt zu Summe, Logarithmusgesetze, Ableitung
+
+\begin{theorem}[Funktionalgleichung des natürlichen Logarithmus]
+    
+\end{theorem}
+
+Frage aufgreifen: Was bedeutet es, mit einer irrationalen Zahl zu potenzieren, z.b. \(2^\pi\)?
+
+\begin{definition}[Potenzieren mit irrationalen Zahlen]
+    
+\end{definition}
+
+\section{Exponentielles Wachstum beschreiben}
+
+Anwendung: Exponentielles Wachstum beschreiben: Exponentialfunktion finden durch Ansatz \(f(t) = f(0)a^t\). 
+
+Anwendung: Beschränktes exponentielles Wachstum 
+
+Anwendung: Logistisches Wachstum
+
+Exkurs: Zusammenhang mit Sinus, Cosinus und den Complexen Zahlen
+

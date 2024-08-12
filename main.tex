@@ -1,8 +1,10 @@
-\documentclass[11pt,reqno, a4paper]{book}
+\documentclass[11pt,reqno, a4paper, ngerman]{book}
 
 \input{packages}
 
 \begin{document}
+
+\includepdf[pages=1]{schnupperstunde mathematik cover.pdf}
 
 \tableofcontents
 
@@ -10,11 +12,27 @@
 
 \include{einführung}
 
+\include{zahlen}
+
+\include{funktionen}
+
 \include{lineare-gleichungssysteme}
 
-\include{differential-und-integralrechnung}
+\include{differentialrechnung}
+
+\include{losen-von-gleichungen}
+
+\include{integralrechnung}
+
+\include{kurvendiskussion}
+
+\include{geometrie-in-2d}
 
 \include{räumliche-geometrie}
+
+\include{kombinatorik}
+
+\include{stochastik}
 
 \printglossary[type=\acronymtype, toctitle=Liste von Akronymen]
 

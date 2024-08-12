@@ -16,6 +16,7 @@
 
 % to float text around figures better
 \usepackage{wrapfig}
+\setlength\intextsep{0pt} % ACHTUNG: might affect other float environments!
 
 % to include extern pdfs: https://tex.stackexchange.com/questions/438775/how-to-insert-a-pdf-page-as-a-front-cover
 \usepackage{pdfpages}
@@ -34,15 +35,13 @@
 
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue,
-    pdftitle={Overleaf Example},
-    pdfpagemode=FullScreen,
-    }
-
-\usepackage{nicematrix}
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,      
+  urlcolor=blue,
+  pdftitle={Schnupperstunde Mathematik},
+  pdfpagemode=FullScreen,
+}
 
 %\usepackage{asymptote} 
 
@@ -52,8 +51,6 @@
 \usepackage{mathtools}
 
 %\usepackage{minted}
-
-\usepackage[capitalize]{cleveref}
 
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\R}{\mathbb{R}}
@@ -93,7 +90,8 @@
 
 \makeglossaries
 
-\usepackage{amsthm}
+\usepackage{amsthm} % loading order is important here!
+\usepackage[capitalize, nameinlink]{cleveref}
 
 \usepackage{newtxtext}        
 \usepackage[varvw]{newtxmath}
@@ -113,9 +111,10 @@
 %% this allows for theorems which are not automatically numbered
 
 \newtheorem{theorem}{Satz}[chapter]
+\newtheorem{nrtheorem}{Satz(*)}[theorem]
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{corollar}[theorem]{Korollar}
+\newtheorem{corollary}[theorem]{Korollar}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{exercise}[theorem]{Aufgabe}
 \newtheorem{problem}[theorem]{Problem}
@@ -140,3 +139,10 @@
 
 % exclude subsections from TOC: https://latex.org/forum/viewtopic.php?t=1309
 \setcounter{tocdepth}{1}
+
+% \usepackage[scaled=.85]{FiraSans}
+% \usepackage[sf]{titlesec}
+
+\usepackage{lipsum}
+
+\hyphenation{Sche-ma-tische}

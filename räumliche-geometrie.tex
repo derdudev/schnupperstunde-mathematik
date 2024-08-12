@@ -1,9 +1,51 @@
 \chapter{Räumliche Geometrie}
 
 \section{Grundbegriffe}
+Dreht sich alles um Vektoren: Definition
 
+Besondere Vektoren: Ortsvektor, Nullvektor
 
-\section{Darstellungen von Geraden und Ebenen}
+Addition und Multiplikation (Was geht schief?)
+
+Skalarmultiplikation => Gegenvektor
+
+Linearkombinationen => Exkurs: Vektorräume und Basen (Lineare Unabhängigkeit als eindeutige Darstellungseigenschaft)
+
+Betrag (Norm) eines Vektors => Normierte Vektoren 
+
+Kollineartität
+
+Strecken: Mittelpunkte
+
+Orthogonalität
+
+\subsection{Vektorprodukte}
+Was geht bei der naiven punktweisen Multiplikation schief? => \href{https://www.youtube.com/watch?v=htYh-Tq7ZBI}{Talk von Freya Holmér}
+
+Skalarprodukt
+
+Kreuzprodukt
+
+\section{Geraden im Raum}
+
+\subsection{Geradengleichung}
+Gerade \(y = mx+c\) als Bild von Kurve in 2D durch Vektoren auffassen => Verallgemeinern auf 3D. 
+
+\subsection{Lagebeziehungen}
+Parallel und identisch, Parallel und verschieden, Schnitt, Windschief
+
+\begin{definition}[Lagebeziehungen]
+    
+\end{definition}
+
+Beispielgallerie!
+
+\subsection{Zeit-Ort-Gleichungen}
+Beschreibung von geradlinigen Bewegungen: Vogelperspektive auf Boot im Wasser (2D), Flugzeuge in der Luft, fast kollidieren. 
+
+\section{Ebenen im Raum}
+
+\subsection{Darstellungen von Ebenen (Ebenengleichungen)}
 Generell werden in der Schule drei verschiedene Darstellungen für Ebenen verwendet. Alle haben ihre Vor- und Nachteile. 
 
 \begin{problem}[Parameterform  \(\rightsquigarrow\) Normalenform] \label{prob:parameterf-normalenf}
@@ -14,7 +56,7 @@ Generell werden in der Schule drei verschiedene Darstellungen für Ebenen verwen
     Gegeben ist eine Ebene \(E\) in Parameterform, d.h. \(E: \vec x = \vec p + t \cdot \vec v + s\cdot \vec w\). 
 \end{problem}
 
-Indem wir das Vorgehen aus Problem \ref{prob:parameterf-normalenf} und \ref{prob:normalenf-koordf} kombinieren, können wir eine Ebene in Parameterform in eine Ebene in Koordinatenform umwandeln: 
+Indem wir das Vorgehen aus \cref{prob:parameterf-normalenf} und \cref{prob:normalenf-koordf} kombinieren, können wir eine Ebene in Parameterform in eine Ebene in Koordinatenform umwandeln: 
 
 \begin{problem}[Parameterform \(\rightsquigarrow\) Koordinatenform]
     
@@ -60,7 +102,25 @@ Wir definieren hier Hauptebenen über ihre Parameterform. Genauso valide wäre e
     
 \end{proposition}
 
+\subsection{Visualisierung von Ebenen im Koordinatensystem}
+Spurpunkte, Spurgeraden
+
+\subsection{Lagebeziehungen von Ebenen und Geraden}
+Echt parallel, Parallel (in Ebene) und Schnitt => Schnittpunkt bestimmen bei verschiedenen Ebenengleichungen
+
+\subsection{Lagebeziehungen von Ebenen und Ebenen}
+Echt parallel, Parallel (identisch) und Schnitt => Schnittgeraden bestimmen!
+
 \section{Abstände}
+Abstand von Punkt zu Punkt
+
+Abstand von Punkt zu Ebene: Lotfußpunkt und Lotfußgerade oder Hessesche Normalform (Herleitung davon)
+
++ Orientierter Abstand (auf welcher Seite der Ebene liegt ein Punkt?)
+
+Abstand von Punkt zu Gerade: Hilfsebene 
+
+Abstand von Geraden
 
 \begin{problem}[Abstand eines Punktes von einer Ebene] Gegeben ist ein Punkt \((a,b,c)\in \mathbb R^3\) und eine Ebene \(E\) in beliebiger Darstellung, d.h. Parameterform, Normalenform oder Koordinatenform. Sei \(\vec p\) der zum Punkt \((a,b,c)\) gehörende Ortsvektor. 
 \begin{enumerate}
@@ -91,7 +151,12 @@ Wir wollen uns überlegen, wie groß der Abstand eines allgemeinen Punktes \((a,
 \section{Geometrische Figuren}
 In diesem Abschnitt widmen wir uns einigen grundlegenden geometrischen Figuren im dreidimensionalen Raum, wie Quadern, Kugeln, Zylindern, Kegeln, Pyramiden, Parallelotopen und weiteren. Insbesondere wollen wir geometrische Eigenschaften dieser Figuren, wie etwa Flächeninhalte und Volumen, sammeln und besser mit Anwendungsproblemen dieser Figuren umgehen können. 
 
+\subsection{Besondere Figuren}
+Parallelogramme und Spaten => Flächeninhalt, Volumen über Kreuzprodukt, etc. 
+
 \section{Projektionen}
+Punkt auf Gerade, Punkt auf Ebene, Gerade auf (beliebige) Ebene
+
 Oft möchte man eine Gerade auf eine Ebene, einen Punkt auf eine Ebene oder einen Punkt auf eine Gerade projezieren. Anschaulich verstehen wir unter einer \textit{Projektion} folgendes: Wir betrachten die Gerade 
 \begin{equation*}
     g: \vec x = \colvec[3]{1}{1} + t\colvec[3]{0}{2}
@@ -100,6 +165,19 @@ Oft möchte man eine Gerade auf eine Ebene, einen Punkt auf eine Ebene oder eine
 Projektionen von Punkten auf Ebenen haben wir bereits als Lotfußpunkte kennengelernt. 
 
 \section{Spiegelungen}
+Spiegelung von Punkt über Punkt 
+
+Spiegelung von Punkt über Gerade
+
+Spiegelung von Punkt über Ebene
+
+Spiegelung von Gerade über Ebene
+
+Spiegelung von Ebene über Ebene
 
 \section{Schnittwinkel}
+Winkel zwischen zwei Vektoren
 
+Winkel zwischen zwei Geraden oder zwei Ebenen
+
+Winkel zwischen einer Gerade und einer Ebene

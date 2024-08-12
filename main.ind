@@ -1,40 +1,40 @@
 \begin{theindex}
 
-  \item Euklidische Geometrie, \hyperpage{7}
+  \item Euklidische Geometrie, \hyperpage{11}
 
   \indexspace
 
-  \item Fakultät, \hyperpage{12}
+  \item Fakultät, \hyperpage{16}
   \item Funktion
-    \subitem Bildbereich, \hyperpage{15}
-    \subitem Definitionsbereich, \hyperpage{15}
-    \subitem Punkt, \hyperpage{16}
-    \subitem Stelle, \hyperpage{16}
-    \subitem Wertebereich, \hyperpage{15}
+    \subitem Bildbereich, \hyperpage{21}
+    \subitem Definitionsbereich, \hyperpage{21}
+    \subitem Punkt, \hyperpage{22}
+    \subitem Stelle, \hyperpage{22}
+    \subitem Wertebereich, \hyperpage{21}
 
   \indexspace
 
-  \item Gerade, \hyperpage{16}
+  \item Gerade, \hyperpage{22}
 
   \indexspace
 
-  \item Hilbertprogramm, \hyperpage{7}
+  \item Hilbertprogramm, \hyperpage{11}
 
   \indexspace
 
-  \item Identität, Identitätsfunktion, \hyperpage{16}
+  \item Identität, Identitätsfunktion, \hyperpage{22}
 
   \indexspace
 
-  \item Sekante, \hyperpage{16}
+  \item Sekante, \hyperpage{22}
   \item Summen
-    \subitem Laufvariable, \hyperpage{10}
-    \subitem Summe, \hyperpage{10}
+    \subitem Laufvariable, \hyperpage{14}
+    \subitem Summe, \hyperpage{14}
 
   \indexspace
 
   \item Zahlen
-    \subitem Natürliche Zahlen \(\mathbb N\), \hyperpage{10}
-    \subitem Reelle Zahlen \(\mathbb R\), \hyperpage{10}
+    \subitem Natürliche Zahlen \(\mathbb N\), \hyperpage{17}
+    \subitem Reelle Zahlen \(\mathbb R\), \hyperpage{17}
 
 \end{theindex}

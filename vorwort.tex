@@ -1,53 +1,11 @@
 \chapter{Vorwort}
 
 \section{Für wen ist dieses Buch?}
-Hallo, liebe Leserin, lieber Leser! Schön, dass du es bis in dieses Buch hinein in die Begrüßung geschafft hast. Test
-
-Über \acrshort{gcd} oder \acrlong{lcm} sprechen wir später bestimmt auch noch. 
+Hallo, liebe Leserin, lieber Leser! Schön, dass du es bis in dieses Buch hinein in die Begrüßung geschafft hast. Ob du hier durch eigene Recherche, oder über die Empfehlung von Freunden hingefunden hast, in jedem Fall hast du dich bestimmt schon gefragt, warum dieses Abitur-Skript nicht einfach \textit{Abiturskript Mathematik}, sondern \textit{Schnupperstunde Mathematik} heißt. Nun, in diesem Skript soll nicht einfach nur der Schul-Stoff heruntergebetet, sondern zusätzlich in einen mathematischeren Kontext gebettet werden. Wir wollen den Schulstoff vom Fach Mathematik etwas mathematischer in Augenschein nehmen, als in der Schule üblich. Gleichzeitig wollen wir trotzdem ein \textit{Schul}-Skript sein. Damit meinen wir insgesamt: 
+\begin{itemize}
+    \item Einen stärkeren Fokus auf mathematisches Denken und die mathematische Vorgehensweise legen. Das umfasst insbesondere das Betrachten und Formulieren von grundlegenden mathematischen Beweisen. 
+    \item Einige Rezepte formulieren, mit denen gut zwei Drittel der Schul-Mathematik-Aufgaben bereits gut gemeistert werden können. Es sollte also trotz des ersten Punktes für jederman möglich sein, dieses Skript einfach nur als Kochbuch oder Rezeptesammlung zu verwenden. 
+\end{itemize}
 
 \section{Aufbau dieser "`Schnupperstunde"'}
 Aufteilung der Kapitel in die Bereiche Analysis, Lineare Algebra, Geometrie und Stochastik/Statistik. 
-
-Mit Matrizen kann hier auch gerechnet werden: 
-\begin{equation}
-    \begin{pNiceArray}{ccc|cc}[margin]
-        1 & 2 & 3 & 1 & 0 \\
-        4 & 5 & 6 & 0 & 1 \\
-        \hline
-        7 & 8 & 9 \\
-        10 & 11 & 12
-    \end{pNiceArray}, \quad 
-    \begin{pNiceMatrix}[margin,hvlines]
-        \Block{3-3}<\LARGE>{A} & & & 0 \\
-        & \hspace*{1cm} & & \Vdots \\
-        & & & 0 \\
-        0 & \Cdots& 0 & 0
-    \end{pNiceMatrix}, \quad 
-    \begin{pNiceMatrix}
-        I & 0 & \Cdots &0 \\
-        0 & I & \Ddots &\Vdots\\
-        \Vdots &\Ddots & I &0 \\
-        0 &\Cdots & 0 &I
-        \CodeAfter \line{2-2}{3-3}
-    \end{pNiceMatrix}
-\end{equation}
-\NiceMatrixOptions{code-for-first-row = \scriptstyle,code-for-first-col = \scriptstyle }
-\setcounter{MaxMatrixCols}{12}
-\newcommand{\blue}{\color{blue}}
-\begin{equation*}
-    \begin{pNiceMatrix}[last-row,last-col,nullify-dots,xdots/line-style={dashed,blue}]
-1& & & \Vdots & & & & \Vdots \\
-& \Ddots[line-style=standard] \\
-& & 1 \\
-\Cdots & & & \blue 0 & \Cdots & & & \blue 1 & & & \Cdots & \blue \leftarrow i \\
-& & & & 1 \\
-& & &\Vdots & & \Ddots[line-style=standard] & & \Vdots \\
-& & & & & & 1 \\
-\Cdots & & & \blue 1 & \Cdots & & \Cdots & \blue 0 & & & \Cdots & \blue \leftarrow j \\
-& & & & & & & & 1 \\
-& & & & & & & & & \Ddots[line-style=standard] \\
-& & & \Vdots & & & & \Vdots & & & 1 \\
-& & & \blue \overset{\uparrow}{i} & & & & \blue \overset{\uparrow}{j} \\
-\end{pNiceMatrix}
-\end{equation*}
-Beispiele von: https://mirror.funkfreundelandshut.de/latex/macros/latex/contrib/nicematrix/nicematrix.pdf

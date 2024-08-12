@@ -1,22 +1,108 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\numberline {1}Vorwort}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Für wen ist dieses Buch?}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Aufbau dieser "`Schnupperstunde"'}{3}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Einführung}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Grundlegende Bezeichnungen in der Mathematik}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Logische Begriffe in der Mathematik}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Mengentheoretische Begriffe und Symbole}{9}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Was sind eigentlich Zahlen?}{10}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Weitere arithmetische Symbole}{10}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Lineare Gleichungssysteme}{13}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Differential- und Integralrechnung}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Grundbegriffe}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Ableitungen}{18}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Räumliche Geometrie}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Grundbegriffe}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Darstellungen von Geraden und Ebenen}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Abstände}{20}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Geometrische Figuren}{20}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Projektionen}{21}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Spiegelungen}{21}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Schnittwinkel}{21}{section.5.7}%
+\contentsline {chapter}{\numberline {1}Vorwort}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Für wen ist dieses Buch?}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Aufbau dieser "`Schnupperstunde"'}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Einführung}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Grundlegende Bezeichnungen in der Mathematik}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Logik und Beweise}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Logische Begriffe in der Mathematik}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Mengentheoretische Begriffe und Symbole}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Weitere arithmetische Symbole (*)}{14}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Zahlen}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Was sind eigentlich Zahlen?}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Die natürlichen Zahlen \(\mathbb N\)}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Die ganzen Zahlen \(\mathbb Z\)}{17}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Die rationalen Zahlen \(\mathbb Q\)}{18}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Die reellen Zahlen \(\mathbb R\)}{18}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Teilbarkeit und Primzahlen}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Die binomischen Formeln}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Unendlichkeiten (*)}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Grenzwerte (*)}{20}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Funktionen}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Grundbegriffe}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Geraden (Lineare Funktionen)}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ganzrationale Funktionen (Polynome)}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Gebrochenrationale Funktionen}{25}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Exponentialfunktionen und Logarithmen}{25}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Trigonometrische Funktionen}{25}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Sinus, Kosinus und Tangens}{25}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Bogenmaß und Gradmaß}{25}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Funktionsscharen}{25}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Lineare Gleichungssysteme}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Was macht ein Gleichungssystem linear?}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Warum sind LGS eigentlich so wichtig?}{27}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Das Gauß-Verfahren}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Bestimmen von allgemeinen Funktionsgleichungen}{27}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Differentialrechnung}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ableitungen}{29}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Tangente und Normale}{29}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Ableitungsregeln}{29}{section.6.3}%
+\contentsline {section}{\numberline {6.4}\(e\)-Funktion}{30}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Exponentielles Wachstum beschreiben}{31}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Lösen von Gleichungen}{33}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Nullstellen bestimmen}{33}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Näherungsweise Lösungen finden (Newton-Verfahren)}{33}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Integration}{35}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Das Riemann-Integral}{35}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Stammfunktionen}{35}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Integrationsregeln}{35}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Integralfunktionen}{36}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Anwendungen des Integrals}{36}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Uneigentliche Integrale}{36}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Rotationskörper}{36}{section.8.7}%
+\contentsline {chapter}{\numberline {9}Kurvendiskussion}{37}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Monotonie}{37}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Krümmung}{37}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Extrempunkte, Sattelpunkte und Wendestellen}{37}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Asymptoten}{38}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Symmetrie}{38}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Untersuchen von gebrochenrationalen Funktionen}{38}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Manipulieren von Graphen}{38}{section.9.7}%
+\contentsline {section}{\numberline {9.8}Extremwertprobleme}{38}{section.9.8}%
+\contentsline {chapter}{\numberline {10}Geometrie in 2D}{39}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Kongruenzen und Ähnlichkeit}{39}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Strahlensätze}{39}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Dreiecke}{39}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Kreise}{39}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Räumliche Geometrie}{41}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Grundbegriffe}{41}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Vektorprodukte}{41}{subsection.11.1.1}%
+\contentsline {section}{\numberline {11.2}Geraden im Raum}{41}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Geradengleichung}{41}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Lagebeziehungen}{41}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Zeit-Ort-Gleichungen}{41}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}Ebenen im Raum}{42}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Darstellungen von Ebenen (Ebenengleichungen)}{42}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Visualisierung von Ebenen im Koordinatensystem}{43}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Lagebeziehungen von Ebenen und Geraden}{43}{subsection.11.3.3}%
+\contentsline {subsection}{\numberline {11.3.4}Lagebeziehungen von Ebenen und Ebenen}{43}{subsection.11.3.4}%
+\contentsline {section}{\numberline {11.4}Abstände}{43}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Geometrische Figuren}{43}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Besondere Figuren}{44}{subsection.11.5.1}%
+\contentsline {section}{\numberline {11.6}Projektionen}{44}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Spiegelungen}{44}{section.11.7}%
+\contentsline {section}{\numberline {11.8}Schnittwinkel}{44}{section.11.8}%
+\contentsline {chapter}{\numberline {12}Kombinatorik}{45}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Permutationen}{45}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Der Binomial-Koeffizient}{45}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Mehrstufiges Auswählen}{45}{section.12.3}%
+\contentsline {chapter}{\numberline {13}Stochastik}{47}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Was sind eigentlich Wahrscheinlichkeiten?}{47}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Rechenregeln für Wahrscheinlichkeiten}{47}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Bedingte Wahrscheinlichkeiten}{47}{subsection.13.2.1}%
+\contentsline {section}{\numberline {13.3}Zufallsvariablen}{48}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Verteilungen von Zufallsvariablen}{48}{section.13.4}%
+\contentsline {subsection}{\numberline {13.4.1}Bernoulli-Verteilung}{48}{subsection.13.4.1}%
+\contentsline {subsection}{\numberline {13.4.2}Binomialverteilung}{48}{subsection.13.4.2}%
+\contentsline {subsection}{\numberline {13.4.3}Normalverteilung}{48}{subsection.13.4.3}%
+\contentsline {subsection}{\numberline {13.4.4}Geometrische Verteilung}{48}{subsection.13.4.4}%
+\contentsline {subsection}{\numberline {13.4.5}Poisson-Verteilung}{48}{subsection.13.4.5}%
+\contentsline {section}{\numberline {13.5}Erwartungswert und Standardabweichung}{48}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Typische Zufallsexperimente}{48}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Stochastische Unabhängigkeit von Ereignissen}{48}{section.13.7}%
+\contentsline {section}{\numberline {13.8}Hypothesentests}{48}{section.13.8}%
+\contentsline {subsection}{\numberline {13.8.1}Links- und rechtsseitige Hypothesentests}{48}{subsection.13.8.1}%
+\contentsline {chapter}{\numberline {A}Exkurse}{49}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Wahrscheinlichkeitstheorie}{51}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Mengenlehre und Logik}{53}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Analysis}{55}{appendix.D}%
